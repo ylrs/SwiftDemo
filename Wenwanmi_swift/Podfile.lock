@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.5.1)
+  - HandyJSON (4.0.0-beta.1)
+  - Kingfisher (4.2.0)
+  - SnapKit (4.0.0)
+  - SQLite.swift (0.11.4):
+    - SQLite.swift/standard (= 0.11.4)
+  - SQLite.swift/standard (0.11.4)
+  - SwiftyJSON (3.1.4)
+  - SwiftyUserDefaults (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - HandyJSON (~> 4.0.0-beta.1)
+  - Kingfisher
+  - SnapKit (~> 4.0.0)
+  - SQLite.swift (~> 0.11.4)
+  - SwiftyJSON
+  - SwiftyUserDefaults
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  HandyJSON: 428bb18e2c34c2a77361accebf90cf64e4f74118
+  Kingfisher: 9ee7e788d8ba07c3f21ce0d43f33cec310a4f781
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
+
+PODFILE CHECKSUM: 55f9d327187179cb365fd2e367b37d33111a2bab
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+target 'Wenwanmi_swift' do
+    pod 'Alamofire'
+    pod 'SQLite.swift', '~> 0.11.4'
+    pod 'SwiftyJSON'
+    pod 'HandyJSON', '~> 4.0.0-beta.1'
+    pod 'SwiftyUserDefaults'
+    pod 'SnapKit', '~> 4.0.0'
+    pod 'Kingfisher'
+end

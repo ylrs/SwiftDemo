@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29958C6603BCB57B078EDB7A /* Pods_Wenwanmi_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A549F3A3454C65AF4DE345 /* Pods_Wenwanmi_swift.framework */; };
+		34713FF91FAC53FC008612B9 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34713FF81FAC53FC008612B9 /* URL.swift */; };
+		34713FFB1FAC67AB008612B9 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34713FFA1FAC67AB008612B9 /* HomeModel.swift */; };
+		347140021FAC738B008612B9 /* HomeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347140001FAC738B008612B9 /* HomeTableCell.swift */; };
+		347140031FAC738B008612B9 /* HomeTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 347140011FAC738B008612B9 /* HomeTableCell.xib */; };
+		347695A11FAB2A8100C2AD34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347695A01FAB2A8100C2AD34 /* AppDelegate.swift */; };
+		347695A61FAB2A8100C2AD34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347695A41FAB2A8100C2AD34 /* Main.storyboard */; };
+		347695A81FAB2A8100C2AD34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 347695A71FAB2A8100C2AD34 /* Assets.xcassets */; };
+		347695AB1FAB2A8100C2AD34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347695A91FAB2A8100C2AD34 /* LaunchScreen.storyboard */; };
+		347695B31FAB2AE800C2AD34 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347695B21FAB2AE800C2AD34 /* TabBarController.swift */; };
+		347695BA1FAB2BAF00C2AD34 /* LF_HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347695B91FAB2BAF00C2AD34 /* LF_HomeViewController.swift */; };
+		347695BC1FAB2BC800C2AD34 /* LF_MiZoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347695BB1FAB2BC800C2AD34 /* LF_MiZoneViewController.swift */; };
+		347695BE1FAB2BD700C2AD34 /* LF_MicroAuctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347695BD1FAB2BD700C2AD34 /* LF_MicroAuctionViewController.swift */; };
+		347695C01FAB2BE700C2AD34 /* LF_ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347695BF1FAB2BE700C2AD34 /* LF_ProductsViewController.swift */; };
+		347695C21FAB2BF900C2AD34 /* LF_MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347695C11FAB2BF900C2AD34 /* LF_MyProfileViewController.swift */; };
+		34CF111A1FAC1C0C00DC6F97 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF11191FAC1C0C00DC6F97 /* Config.swift */; };
+		34CF11231FAC236000DC6F97 /* TopicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF11221FAC236000DC6F97 /* TopicModel.swift */; };
+		34CF11271FAC23F700DC6F97 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF11261FAC23F700DC6F97 /* User.swift */; };
+		34CF112A1FAC27A900DC6F97 /* NetWorkTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CF11291FAC27A900DC6F97 /* NetWorkTool.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16A549F3A3454C65AF4DE345 /* Pods_Wenwanmi_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wenwanmi_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34713FF81FAC53FC008612B9 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		34713FFA1FAC67AB008612B9 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		347140001FAC738B008612B9 /* HomeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableCell.swift; sourceTree = "<group>"; };
+		347140011FAC738B008612B9 /* HomeTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableCell.xib; sourceTree = "<group>"; };
+		3476959D1FAB2A8100C2AD34 /* Wenwanmi_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wenwanmi_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		347695A01FAB2A8100C2AD34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		347695A51FAB2A8100C2AD34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		347695A71FAB2A8100C2AD34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		347695AA1FAB2A8100C2AD34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		347695AC1FAB2A8100C2AD34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		347695B21FAB2AE800C2AD34 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		347695B91FAB2BAF00C2AD34 /* LF_HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LF_HomeViewController.swift; sourceTree = "<group>"; };
+		347695BB1FAB2BC800C2AD34 /* LF_MiZoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LF_MiZoneViewController.swift; sourceTree = "<group>"; };
+		347695BD1FAB2BD700C2AD34 /* LF_MicroAuctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LF_MicroAuctionViewController.swift; sourceTree = "<group>"; };
+		347695BF1FAB2BE700C2AD34 /* LF_ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LF_ProductsViewController.swift; sourceTree = "<group>"; };
+		347695C11FAB2BF900C2AD34 /* LF_MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LF_MyProfileViewController.swift; sourceTree = "<group>"; };
+		34CF11191FAC1C0C00DC6F97 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		34CF11221FAC236000DC6F97 /* TopicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicModel.swift; sourceTree = "<group>"; };
+		34CF11261FAC23F700DC6F97 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		34CF11291FAC27A900DC6F97 /* NetWorkTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkTool.swift; sourceTree = "<group>"; };
+		496F9CCE0E77EA480E4C18F3 /* Pods-Wenwanmi_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wenwanmi_swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wenwanmi_swift/Pods-Wenwanmi_swift.release.xcconfig"; sourceTree = "<group>"; };
+		62CD0E16DED4F2D3CEB61AD3 /* Pods-Wenwanmi_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wenwanmi_swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wenwanmi_swift/Pods-Wenwanmi_swift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3476959A1FAB2A8100C2AD34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29958C6603BCB57B078EDB7A /* Pods_Wenwanmi_swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		347695941FAB2A8100C2AD34 = {
+			isa = PBXGroup;
+			children = (
+				3476959F1FAB2A8100C2AD34 /* Wenwanmi_swift */,
+				3476959E1FAB2A8100C2AD34 /* Products */,
+				88A9343906EB98643AD23540 /* Pods */,
+				895E79FBDA8971C97B824FCA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3476959E1FAB2A8100C2AD34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3476959D1FAB2A8100C2AD34 /* Wenwanmi_swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3476959F1FAB2A8100C2AD34 /* Wenwanmi_swift */ = {
+			isa = PBXGroup;
+			children = (
+				34CF11241FAC23DA00DC6F97 /* Main */,
+				347695B81FAB2B8300C2AD34 /* MyProfile */,
+				347695B71FAB2B7C00C2AD34 /* Products */,
+				347695B61FAB2B6A00C2AD34 /* MicroAuction */,
+				347695B51FAB2B5900C2AD34 /* MiZone */,
+				347695B41FAB2B5200C2AD34 /* Home */,
+				347695A01FAB2A8100C2AD34 /* AppDelegate.swift */,
+				347695A41FAB2A8100C2AD34 /* Main.storyboard */,
+				347695A71FAB2A8100C2AD34 /* Assets.xcassets */,
+				347695A91FAB2A8100C2AD34 /* LaunchScreen.storyboard */,
+				347695AC1FAB2A8100C2AD34 /* Info.plist */,
+			);
+			path = Wenwanmi_swift;
+			sourceTree = "<group>";
+		};
+		347695B41FAB2B5200C2AD34 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				34CF11211FAC231E00DC6F97 /* ViewController */,
+				34CF11201FAC231400DC6F97 /* Tool */,
+				34CF111F1FAC230D00DC6F97 /* Model */,
+				34CF111E1FAC22FE00DC6F97 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		347695B51FAB2B5900C2AD34 /* MiZone */ = {
+			isa = PBXGroup;
+			children = (
+				347695BB1FAB2BC800C2AD34 /* LF_MiZoneViewController.swift */,
+			);
+			path = MiZone;
+			sourceTree = "<group>";
+		};
+		347695B61FAB2B6A00C2AD34 /* MicroAuction */ = {
+			isa = PBXGroup;
+			children = (
+				347695BD1FAB2BD700C2AD34 /* LF_MicroAuctionViewController.swift */,
+			);
+			path = MicroAuction;
+			sourceTree = "<group>";
+		};
+		347695B71FAB2B7C00C2AD34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				347695BF1FAB2BE700C2AD34 /* LF_ProductsViewController.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		347695B81FAB2B8300C2AD34 /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				347695C11FAB2BF900C2AD34 /* LF_MyProfileViewController.swift */,
+			);
+			path = MyProfile;
+			sourceTree = "<group>";
+		};
+		34CF11181FAC188F00DC6F97 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				34CF11191FAC1C0C00DC6F97 /* Config.swift */,
+				34713FF81FAC53FC008612B9 /* URL.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		34CF111B1FAC1E6800DC6F97 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				347695B21FAB2AE800C2AD34 /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		34CF111E1FAC22FE00DC6F97 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				347140001FAC738B008612B9 /* HomeTableCell.swift */,
+				347140011FAC738B008612B9 /* HomeTableCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34CF111F1FAC230D00DC6F97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34CF11221FAC236000DC6F97 /* TopicModel.swift */,
+				34713FFA1FAC67AB008612B9 /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34CF11201FAC231400DC6F97 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		34CF11211FAC231E00DC6F97 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				347695B91FAB2BAF00C2AD34 /* LF_HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		34CF11241FAC23DA00DC6F97 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				34CF11281FAC26EF00DC6F97 /* Network */,
+				34CF11251FAC23E700DC6F97 /* Model */,
+				34CF11181FAC188F00DC6F97 /* Tools */,
+				34CF111B1FAC1E6800DC6F97 /* TabBar */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		34CF11251FAC23E700DC6F97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				34CF11261FAC23F700DC6F97 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34CF11281FAC26EF00DC6F97 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				34CF11291FAC27A900DC6F97 /* NetWorkTool.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		88A9343906EB98643AD23540 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62CD0E16DED4F2D3CEB61AD3 /* Pods-Wenwanmi_swift.debug.xcconfig */,
+				496F9CCE0E77EA480E4C18F3 /* Pods-Wenwanmi_swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		895E79FBDA8971C97B824FCA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16A549F3A3454C65AF4DE345 /* Pods_Wenwanmi_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3476959C1FAB2A8100C2AD34 /* Wenwanmi_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 347695AF1FAB2A8100C2AD34 /* Build configuration list for PBXNativeTarget "Wenwanmi_swift" */;
+			buildPhases = (
+				730673EC42D530B22B6149FD /* [CP] Check Pods Manifest.lock */,
+				347695991FAB2A8100C2AD34 /* Sources */,
+				3476959A1FAB2A8100C2AD34 /* Frameworks */,
+				3476959B1FAB2A8100C2AD34 /* Resources */,
+				AF5D62935A1BE8F1140AC062 /* [CP] Embed Pods Frameworks */,
+				A163D4495B31F377CA474CB8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wenwanmi_swift;
+			productName = Wenwanmi_swift;
+			productReference = 3476959D1FAB2A8100C2AD34 /* Wenwanmi_swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		347695951FAB2A8100C2AD34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = YLRS;
+				TargetAttributes = {
+					3476959C1FAB2A8100C2AD34 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 347695981FAB2A8100C2AD34 /* Build configuration list for PBXProject "Wenwanmi_swift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 347695941FAB2A8100C2AD34;
+			productRefGroup = 3476959E1FAB2A8100C2AD34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3476959C1FAB2A8100C2AD34 /* Wenwanmi_swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3476959B1FAB2A8100C2AD34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				347695AB1FAB2A8100C2AD34 /* LaunchScreen.storyboard in Resources */,
+				347695A81FAB2A8100C2AD34 /* Assets.xcassets in Resources */,
+				347695A61FAB2A8100C2AD34 /* Main.storyboard in Resources */,
+				347140031FAC738B008612B9 /* HomeTableCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		730673EC42D530B22B6149FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A163D4495B31F377CA474CB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wenwanmi_swift/Pods-Wenwanmi_swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF5D62935A1BE8F1140AC062 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wenwanmi_swift/Pods-Wenwanmi_swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		347695991FAB2A8100C2AD34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34CF112A1FAC27A900DC6F97 /* NetWorkTool.swift in Sources */,
+				347695B31FAB2AE800C2AD34 /* TabBarController.swift in Sources */,
+				347695BC1FAB2BC800C2AD34 /* LF_MiZoneViewController.swift in Sources */,
+				347695A11FAB2A8100C2AD34 /* AppDelegate.swift in Sources */,
+				347695C21FAB2BF900C2AD34 /* LF_MyProfileViewController.swift in Sources */,
+				347695BA1FAB2BAF00C2AD34 /* LF_HomeViewController.swift in Sources */,
+				34CF111A1FAC1C0C00DC6F97 /* Config.swift in Sources */,
+				347695C01FAB2BE700C2AD34 /* LF_ProductsViewController.swift in Sources */,
+				347695BE1FAB2BD700C2AD34 /* LF_MicroAuctionViewController.swift in Sources */,
+				347140021FAC738B008612B9 /* HomeTableCell.swift in Sources */,
+				34713FFB1FAC67AB008612B9 /* HomeModel.swift in Sources */,
+				34CF11271FAC23F700DC6F97 /* User.swift in Sources */,
+				34CF11231FAC236000DC6F97 /* TopicModel.swift in Sources */,
+				34713FF91FAC53FC008612B9 /* URL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		347695A41FAB2A8100C2AD34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				347695A51FAB2A8100C2AD34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		347695A91FAB2A8100C2AD34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				347695AA1FAB2A8100C2AD34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		347695AD1FAB2A8100C2AD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = /Users/YLRS/Documents/SwiftDemo/Wenwanmi_swift/Wenwanmi_swift/wenwanmi_swift.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		347695AE1FAB2A8100C2AD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = /Users/YLRS/Documents/SwiftDemo/Wenwanmi_swift/Wenwanmi_swift/wenwanmi_swift.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		347695B01FAB2A8100C2AD34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62CD0E16DED4F2D3CEB61AD3 /* Pods-Wenwanmi_swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4V86W855A;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Wenwanmi_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ylrs.sales.Wenwanmi-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		347695B11FAB2A8100C2AD34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 496F9CCE0E77EA480E4C18F3 /* Pods-Wenwanmi_swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4V86W855A;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = Wenwanmi_swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ylrs.sales.Wenwanmi-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		347695981FAB2A8100C2AD34 /* Build configuration list for PBXProject "Wenwanmi_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347695AD1FAB2A8100C2AD34 /* Debug */,
+				347695AE1FAB2A8100C2AD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		347695AF1FAB2A8100C2AD34 /* Build configuration list for PBXNativeTarget "Wenwanmi_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				347695B01FAB2A8100C2AD34 /* Debug */,
+				347695B11FAB2A8100C2AD34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 347695951FAB2A8100C2AD34 /* Project object */;
+}
