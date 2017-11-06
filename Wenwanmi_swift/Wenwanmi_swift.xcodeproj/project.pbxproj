@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		29958C6603BCB57B078EDB7A /* Pods_Wenwanmi_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A549F3A3454C65AF4DE345 /* Pods_Wenwanmi_swift.framework */; };
+		340A395B1FB02E9300994AF4 /* GLLoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340A39591FB02E9300994AF4 /* GLLoopView.swift */; };
+		340A395C1FB02E9300994AF4 /* GLLoopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 340A395A1FB02E9300994AF4 /* GLLoopView.xib */; };
 		34713FF91FAC53FC008612B9 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34713FF81FAC53FC008612B9 /* URL.swift */; };
 		34713FFB1FAC67AB008612B9 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34713FFA1FAC67AB008612B9 /* HomeModel.swift */; };
 		347140021FAC738B008612B9 /* HomeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347140001FAC738B008612B9 /* HomeTableCell.swift */; };
@@ -30,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		16A549F3A3454C65AF4DE345 /* Pods_Wenwanmi_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wenwanmi_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		340A39591FB02E9300994AF4 /* GLLoopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GLLoopView.swift; sourceTree = "<group>"; };
+		340A395A1FB02E9300994AF4 /* GLLoopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GLLoopView.xib; sourceTree = "<group>"; };
 		34713FF81FAC53FC008612B9 /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
 		34713FFA1FAC67AB008612B9 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
 		347140001FAC738B008612B9 /* HomeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableCell.swift; sourceTree = "<group>"; };
@@ -66,6 +70,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		340A39581FB02E9300994AF4 /* GLLoopView */ = {
+			isa = PBXGroup;
+			children = (
+				340A39591FB02E9300994AF4 /* GLLoopView.swift */,
+				340A395A1FB02E9300994AF4 /* GLLoopView.xib */,
+			);
+			path = GLLoopView;
+			sourceTree = "<group>";
+		};
 		347695941FAB2A8100C2AD34 = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +161,7 @@
 		34CF11181FAC188F00DC6F97 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				340A39581FB02E9300994AF4 /* GLLoopView */,
 				34CF11191FAC1C0C00DC6F97 /* Config.swift */,
 				34713FF81FAC53FC008612B9 /* URL.swift */,
 			);
@@ -303,6 +317,7 @@
 			files = (
 				347695AB1FAB2A8100C2AD34 /* LaunchScreen.storyboard in Resources */,
 				347695A81FAB2A8100C2AD34 /* Assets.xcassets in Resources */,
+				340A395C1FB02E9300994AF4 /* GLLoopView.xib in Resources */,
 				347695A61FAB2A8100C2AD34 /* Main.storyboard in Resources */,
 				347140031FAC738B008612B9 /* HomeTableCell.xib in Resources */,
 			);
@@ -364,6 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34CF112A1FAC27A900DC6F97 /* NetWorkTool.swift in Sources */,
+				340A395B1FB02E9300994AF4 /* GLLoopView.swift in Sources */,
 				347695B31FAB2AE800C2AD34 /* TabBarController.swift in Sources */,
 				347695BC1FAB2BC800C2AD34 /* LF_MiZoneViewController.swift in Sources */,
 				347695A11FAB2A8100C2AD34 /* AppDelegate.swift in Sources */,

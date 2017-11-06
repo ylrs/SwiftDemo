@@ -25,6 +25,7 @@ class NetWorkTool: NSObject {
             case .success(_):
                 let jsonDic:Dictionary<String,Any> = (response.result.value as! Dictionary?)!
                 success(jsonDic)
+                print(response.request?.url as Any)
                 break
             case .failure(_):
                 print(response.request?.url as Any)
@@ -48,9 +49,11 @@ class NetWorkTool: NSObject {
                 
                 let jsonDic:Dictionary<String,Any> = (response.result.value as! Dictionary?)!
                 success(jsonDic)
+                print(response.request?.url as Any)
                 break
             case .failure(_):
                 failure(response.result.error!)
+                print(response.request?.url as Any)
                 break
             }
         }

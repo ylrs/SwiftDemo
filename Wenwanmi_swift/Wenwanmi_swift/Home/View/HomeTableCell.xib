@@ -47,6 +47,11 @@
                         <rect key="frame" x="16" y="97" width="294" height="128"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </scrollView>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v9z-dw-Lba">
+                        <rect key="frame" x="0.0" y="205" width="320" height="9"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
                 </subviews>
             </tableViewCellContentView>
             <connections>
@@ -55,8 +60,9 @@
                 <outlet property="levelLabel" destination="8TR-Ei-3wO" id="O6d-d7-n1c"/>
                 <outlet property="nameLabel" destination="cRh-25-tcP" id="S5H-do-eeg"/>
                 <outlet property="scrollView" destination="J1e-tu-VOR" id="1HN-WV-UWe"/>
+                <outlet property="xian" destination="v9z-dw-Lba" id="tSs-Su-Rh1"/>
             </connections>
-            <point key="canvasLocation" x="-126" y="54.5"/>
+            <point key="canvasLocation" x="-339" y="-104.5"/>
         </tableViewCell>
     </objects>
 </document>

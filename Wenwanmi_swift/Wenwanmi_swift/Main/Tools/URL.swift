@@ -7,4 +7,6 @@
 //
 
 import UIKit
-let HomeURL = "topicV2/timeline"
+let HomeURL         = "topicV2/timeline"
+let HomeTemplate    = "templateV2"
+

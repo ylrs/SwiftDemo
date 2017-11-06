@@ -9,4 +9,5 @@ target 'Wenwanmi_swift' do
     pod 'SwiftyUserDefaults'
     pod 'SnapKit', '~> 4.0.0'
     pod 'Kingfisher'
+    pod 'ESPullToRefresh'
 end

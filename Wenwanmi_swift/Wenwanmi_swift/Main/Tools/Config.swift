@@ -14,7 +14,7 @@ let BaseToken   = "6a268af196fc1afbb5329424236ba710"
 let BaseVersion = "4.12.0"
 let BaseClient  = "ios"
 
-let BaseHeader  : HTTPHeaders = [
+let BaseHeader         : HTTPHeaders = [
     "Accept"           : "*/*",
     "Accept-Encoding"  : "gzip, deflate",
     "Accept-Language"  : "zh-Hans-CN;q=1",
@@ -26,7 +26,10 @@ let BaseParam : Dictionary = [
     "client"  : BaseClient,
     "token"   : BaseToken
 ]
-
+enum kRefreshData:Int {
+    case kRefreshNew = 1
+    case kRefreshMore
+}
 /// 获取系统版本号
 let kSystemVersion = (UIDevice.current.systemVersion as NSString);
 /// 是否IOS7系统

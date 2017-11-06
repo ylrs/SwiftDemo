@@ -16,6 +16,7 @@ class HomeTableCell: UITableViewCell {
     @IBOutlet weak var levelLabel   : UILabel!
     @IBOutlet weak var contentLabel : UILabel!
     @IBOutlet weak var scrollView   : UIScrollView!
+    @IBOutlet weak var xian: UIView!
     
     var topicModel: TopicModel?
     var imageWidth: CGFloat?
@@ -62,10 +63,21 @@ class HomeTableCell: UITableViewCell {
             item.removeFromSuperview()
         }
         
-//        for i in 0..< topicModel?.pics?.count{
-//            let picDic:NSDictionary = topicModel?.pics[i]
-//
-//        }
+        let pics:NSArray = (topicModel?.pics)!
+        
+        for i in 0..<pics.count  {
+            let picDic:NSDictionary = topicModel?.pics![i] as! NSDictionary
+            let url = picDic["url"]
+            
+            let image = UIImageView()
+            image.clipsToBounds = true
+            image.contentMode = UIViewContentMode.scaleAspectFill
+            image.frame = CGRect.init(x: CGFloat(i)*(imageWidth!+5), y: 0, width: imageWidth!, height: imageWidth!)
+            scrollView.addSubview(image)
+            
+            let image_url = URL.init(string: url as! String)
+            image.kf.setImage(with: image_url)
+        }
     }
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -96,7 +108,7 @@ class HomeTableCell: UITableViewCell {
         contentLabel.numberOfLines = 0
         contentLabel.lineBreakMode = NSLineBreakMode.byWordWrapping
         
-        scrollView.backgroundColor = UIColor.red
+        xian.backgroundColor = RGBColor(200,200,200)
         
         avatarImg.snp.makeConstraints { (make) in
             make.width.equalTo(40)
@@ -130,6 +142,11 @@ class HomeTableCell: UITableViewCell {
             make.left.equalTo(10)
             make.right.equalTo(-10)
             make.height.equalTo(imageWidth!)
+        }
+        
+        xian.snp.makeConstraints { (make) in
+            make.left.right.bottom.equalTo(0);
+            make.height.equalTo(0.5)
         }
         
         contentView.snp.makeConstraints { (make) in
