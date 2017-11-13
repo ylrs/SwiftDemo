@@ -153,9 +153,33 @@
 		347695B81FAB2B8300C2AD34 /* MyProfile */ = {
 			isa = PBXGroup;
 			children = (
+				34A4574C1FB9753E00785BE2 /* Model */,
+				34A4574B1FB9753800785BE2 /* Tools */,
+				34A4574A1FB9752500785BE2 /* View */,
 				347695C11FAB2BF900C2AD34 /* LF_MyProfileViewController.swift */,
 			);
 			path = MyProfile;
+			sourceTree = "<group>";
+		};
+		34A4574A1FB9752500785BE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34A4574B1FB9753800785BE2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		34A4574C1FB9753E00785BE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		34CF11181FAC188F00DC6F97 /* Tools */ = {

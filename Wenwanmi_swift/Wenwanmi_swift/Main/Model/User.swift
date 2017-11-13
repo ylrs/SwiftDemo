@@ -14,6 +14,10 @@ class User: HandyJSON {
     var level       : Int?
     var local       : String?
     var mobile      : String?
-    
+    var posts       : String?
+    var follows     : String?
+    var followers   : String?
+    var favs        : String?
+
     required init(){}
 }
