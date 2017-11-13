@@ -65,7 +65,7 @@ class HomeTableCell: UITableViewCell {
         
         let pics:NSArray = (topicModel?.pics)!
         
-        for i in 0..<pics.count  {
+        for i in 0..<pics.count {
             let picDic:NSDictionary = topicModel?.pics![i] as! NSDictionary
             let url = picDic["url"]
             

@@ -9,5 +9,7 @@
 import UIKit
 let HomeURL         = "topicV2/timeline"
 let HomeTemplate    = "templateV2"
+let ProfileTemplete = "template"
 let ProfileInfo     = "user/get_info"
+let ProfileOrder    = "order/dashboard"
 
